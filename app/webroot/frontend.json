@@ -1,0 +1,22 @@
+{
+    "favicon": "logo.png",
+    "meta": {
+        "default": {
+            "description": "Kickbone is a tiny MVC Framework for custom WebApplications in any size.",
+            "author": "Swiss Major Music",
+            "application-name": "Swiss Major Music",
+            "keywords": "MVC, mvc, model view control, model view controller, framework, mvc framework, mvc software, mvc php, php, github",
+            "robots": "noindex, nofollow",
+            "viewport": "initial-scale=1, maximum-scale=1",
+            "apple-mobile-web-app-capable": "yes",
+            "apple-mobile-web-app-title": "SMM - App"
+        },
+
+        "custom": {
+            "http-equiv": {
+                "key": "X-UA-Compatible",
+                "value": "IE=8"
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+
+.layout-artist {
+
+}
+
+.layout-artist .sidebar {
+    width: 290px;
+    padding: 0 10px;
+    background-color: #eee;
+}
+
+.layout-artist .sidebar p {
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+.layout-artist .sidebar .bio {
+    text-align: justify;
+    margin: 30px 0;
+}
+
+.layout-artist .sidebar img {
+    width: 250px;
+    margin: 20px 10px 10px 10px;
+}
+
+.layout-artist .side-content {
+    margin-left: 10px;
+}
+
+.layout-artist .sidebar .social-navigation i {
+    margin-right: 10px;
+}
+
+.layout-artist .sidebar .social-navigation li {
+    margin: 10px 0;
+}
+
+.grid-artist .row {
+}
+
+.grid-artist .tile {
+    border: 1px solid #eee;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    min-height: 200px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.grid-artist .image img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contact {
+    width: 200px;
+}
+
+.contact input[type="text"],
+.contact textarea {
+    margin-top: 10px;
+    background-color: #eee;
+}
+
+.contact input[type="submit"] {
+    margin-top: 10px;
+}
+
+.grid-artist .tile > h3 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-artist .tile-mid {
+    width: 310px;
+}
+
+.grid-artist .tile-large {
+    width: 640px;
+}
+
+.grid-artist .col-4 {
+    width: 66.333%;
+    margin: 0 0.166%;
+}

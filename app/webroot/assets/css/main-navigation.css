@@ -1,0 +1,28 @@
+.main-navigation {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.main-navigation.skin-profile {
+    padding: 0;
+}
+
+.main-navigation .logo {
+    width: 120px;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    padding: 0 25px;
+    color: #fff;
+}
+
+.main-navigation.skin-profile {
+    background-color: #111;
+}
+
+.main-navigation .btn-skin {
+    margin-left: 20px;
+    margin: 0 auto;
+    padding: 8px 20px;
+}

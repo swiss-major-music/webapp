@@ -1,0 +1,28 @@
+.intro-teaser {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    color: #fff;
+    background-color: rgba(0,0,0,.2);
+}
+
+.intro-teaser h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.intro-teaser p {
+    width: 70%;
+    margin: 0 15%;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.intro-teaser .search {
+    width: 300px;
+    background: url('../../media/ico/search.png') no-repeat scroll 10px 11px;
+    background-size: 20px;
+    background-color: #fff;
+    text-indent: 30px;
+    color: #333;
+}

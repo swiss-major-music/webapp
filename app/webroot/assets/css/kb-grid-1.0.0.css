@@ -1,0 +1,60 @@
+.fluid-grid {
+    overflow: hidden;
+    padding: 0;
+}
+
+.fluid-grid-space {
+    padding: 10px;
+}
+
+.space-rows .row {
+    margin: 15px 0;
+}
+
+.fluid-grid > .row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fluid-grid > .row div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.fluid-grid > .row > [class*='col-'] {
+    float: left;
+    padding: 0 10px;
+}
+
+.fluid-grid > .row > .col-1 {
+    width: 100%;
+}
+
+.fluid-grid > .row > .col-2 {
+    width: 50%;
+}
+
+.fluid-grid > .row > .col-3 {
+    width: 33.333%;
+}
+
+.fluid-grid > .row > .col-4 {
+    width: 25%;
+}
+
+.fluid-grid > .row > .col-5 {
+    width: 20%;
+}
+
+.fluid-grid > .row > .col-6 {
+    width: 16.666%;
+}
+
+.fluid-grid > .row > .col-7 {
+    width: 14.2857%;
+}
+
+.fluid-grid > .row > .col-8 {
+    width: 12.5%;
+}

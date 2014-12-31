@@ -1,0 +1,20 @@
+{
+    "js": [
+        "jquery-1.11.1.js",
+        "bqjs.js",
+        "init.js"
+    ],
+
+    "css": [
+        "normalize-3.0.2.css",
+        "kb-grid-1.0.0.css",
+        "kb-table-1.0.0.css",
+        "bqjs.css",
+        "elements.css",
+        "grid-home.css",
+        "grid-artist.css",
+        "intro-teaser.css",
+        "header.css",
+        "main-navigation.css"
+    ]
+}

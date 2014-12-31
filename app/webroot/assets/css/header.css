@@ -1,0 +1,22 @@
+header.skin-home {
+    position: relative;
+    padding: 0;
+    display: block;
+    height: 700px;
+}
+
+header.skin-home .inner-container {
+    overflow: hidden;
+}
+
+header.skin-home .background-images,
+header.skin-home .content  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header.skin-home {
+
+}
