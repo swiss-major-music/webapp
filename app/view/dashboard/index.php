@@ -14,7 +14,7 @@
                     <tbody>
                         <tr>
                             <td>BASE</td>
-                            <td><strong><?= BASE ?></strong></td>
+                            <td><input type="text" value="<?= BASE ?>"></td>
                             <td>Path to the Webroot</td>
                         </tr>
                         <tr>

@@ -7,7 +7,7 @@
      * don't add the trailing slash at the end of the URL to
      * prevent other failures in the software.
      */
-    define('APP_SUBFOLDER', 'smm/backend');
+    define('APP_SUBFOLDER', 'smm-web');
 
 
     /**
@@ -16,7 +16,7 @@
      * during the runtime of kickbone. Default value is
      * an empty string -> ''.
      */
-    define('DEFAULT_VIEW_TITLE', 'Kickbone');
+    define('DEFAULT_VIEW_TITLE', 'Site');
 
     /**
      * Trace every users IP which will enter the site

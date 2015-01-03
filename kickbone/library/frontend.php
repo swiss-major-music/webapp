@@ -57,3 +57,10 @@
             'type' => 'image/png'
         ));
     }
+
+    function render($data, $value) {
+        if(isset($data[$value]) && !empty($data[$value])) {
+            return $data[$value];
+        }
+        return '';
+    }

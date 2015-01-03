@@ -295,3 +295,13 @@ input [type="text"],
 textarea {
     color: #222;
 }
+
+.center-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* outsource */
+.artist-col h1 {
+    line-height: 242px;
+}

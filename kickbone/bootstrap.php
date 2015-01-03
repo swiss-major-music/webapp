@@ -60,14 +60,13 @@
             write_error('Couldn\'t find class file for ' . $str_model . ' in bootstrap.php');
             return;
         }
-        $ctrl = new $str_controller();
+        $ctrl = new $str_controller(new $str_model($route));
         $ctrl->register($raw_controller, $raw_action);
         if(!method_exists($ctrl, $str_action)) {
             $ctrl->DefaultAction();
         } else {
             $ctrl->$str_action($route);
         }
-        $ctrl->set_model(new $str_model());
     }
 
     function kickbone_header() {

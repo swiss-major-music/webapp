@@ -2,6 +2,7 @@
     "js": [
         "jquery-1.11.1.js",
         "bqjs.js",
+        "ga.js",
         "init.js"
     ],
 
@@ -9,6 +10,8 @@
         "normalize-3.0.2.css",
         "kb-grid-1.0.0.css",
         "kb-table-1.0.0.css",
+        "icomoon.css",
+        "social-colors.css",
         "bqjs.css",
         "elements.css",
         "grid-home.css",
