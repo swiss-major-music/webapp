@@ -50,7 +50,12 @@
         }
 
         public function DefaultAction() {
+            $this->register(default_action(), default_action());
+        }
+
+        public function ErrorAction() {
             $this->register('error', 'index');
+            $this->set('title', 'Oops..');
         }
 
         function __destruct() {

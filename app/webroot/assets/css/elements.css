@@ -14,6 +14,19 @@ html {
     min-width: 900px;
 }
 
+body.error {
+    background-color: #222;
+    margin-top: 100px;
+}
+body.error > * {
+    color: #fff;
+    text-align: center;
+}
+
+body.error * a {
+    color: rgba(231, 76, 60, 1);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }

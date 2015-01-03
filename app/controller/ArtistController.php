@@ -7,7 +7,7 @@ class ArtistController extends KickboneController {
     public function ViewAction($args = array()) {
         $artist = $this->model->get('artist');
         if($artist == null) {
-            $this->DefaultAction();
+            $this->ErrorAction();
             $this->set('status', '404');
             $this->set('description', "The artist $args[0] was not found.");
             return;
